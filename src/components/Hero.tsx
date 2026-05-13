@@ -31,7 +31,7 @@ export default function Hero() {
         </p>
 
         <div className="flex gap-4 flex-wrap">
-          <
+          <a
             href="#philosophy"
             className="inline-block px-8 py-3.5 text-[0.85rem] tracking-[0.12em] uppercase rounded-sm transition-all duration-250 text-white hover:-translate-y-0.5"
             style={{
