@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --red: #e63030;
+  --red-dark: #b01c1c;
+  --red-glow: rgba(230, 48, 48, 0.3);
+  --black: #0a0a0a;
+  --black-2: #111111;
+  --black-3: #1a1a1a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--black);
+  color: #f5f5f5;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(230, 48, 48, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(230, 48, 48, 0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+  pointer-events: none;
+  z-index: 0;
+}
