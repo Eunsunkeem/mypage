@@ -31,29 +31,7 @@ export default function Hero() {
         </p>
 
         <div className="flex gap-4 flex-wrap">
-          <a
-            href="#about"
-            className="inline-block px-8 py-3.5 text-[0.85rem] tracking-[0.12em] uppercase rounded-sm transition-all duration-250 hover:-translate-y-0.5"
-            style={{
-              fontFamily: "'Space Grotesk', sans-serif",
-              background: "var(--red)",
-              color: "#fff",
-              border: "2px solid var(--red)",
-            }}
-            onMouseEnter={e => {
-              (e.currentTarget as HTMLAnchorElement).style.background = "var(--red-dark)";
-              (e.currentTarget as HTMLAnchorElement).style.borderColor = "var(--red-dark)";
-              (e.currentTarget as HTMLAnchorElement).style.boxShadow = "0 0 24px var(--red-glow)";
-            }}
-            onMouseLeave={e => {
-              (e.currentTarget as HTMLAnchorElement).style.background = "var(--red)";
-              (e.currentTarget as HTMLAnchorElement).style.borderColor = "var(--red)";
-              (e.currentTarget as HTMLAnchorElement).style.boxShadow = "none";
-            }}
-          >
-            소개 보기
-          </a>
-          <a
+          <
             href="#philosophy"
             className="inline-block px-8 py-3.5 text-[0.85rem] tracking-[0.12em] uppercase rounded-sm transition-all duration-250 text-white hover:-translate-y-0.5"
             style={{
